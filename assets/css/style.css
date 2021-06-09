@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Bagian Header */
+header {
+  box-shadow: 0 3px 4px rgb(54, 54, 54);
+  background-color: #336799;
+  padding: 5px 0;
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+header h1 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+header h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+header h1,
+header h3 {
+  margin-left: 80px;
+  color: #fff;
+}
+
+/* Bagian Main / Bagian Soal */
+main {
+  margin-top: 5px;
+  height: 100vh;
+  background-color: #c9c9c9;
+  padding: 25px 0;
+}
+
+.content {
+  background-color: #fff;
+}
+
+.num-question {
+  height: 65px;
+  line-height: 65px;
+  padding-left: 20px;
+}
+
+.num-question h1 {
+  font-size: 22px;
+}
+
+.num-question span {
+  background-color: #336799;
+  padding: 4px;
+  color: #fff;
+}
+
+.fs-question {
+  background-color: #f6f6f6;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  border-bottom: 2px solid #e4e4e4;
+  border-top: 2px solid #e4e4e4;
+}
+
+.fs-question p {
+  display: inline-block;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.medium {
+  font-size: 18px;
+}
+
+.big {
+  font-size: 22px;
+}
+
+.question-area {
+  height: 300px;
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid #e4e4e4;
+}
+
+.answer {
+  padding-top: 20px;
+}
+
+.button-nav {
+  border-top: 2px solid #e4e4e4;
+  padding: 10px 15px;
+}
+
+.btn {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  color: #fff;
+  font-weight: normal;
+}
+
+.btn-primary {
+  background-color: #336799;
+}
+
+.btn-warning {
+  background-color: #efad4d;
+  margin: 5px 0;
+}
+
+.btn-secondary {
+  background-color: #979797;
+}
+
+.btn-warning label {
+  line-height: 100%;
+  width: 100%;
+}
+
+/* Clear Float */
+.clear {
+  clear: both;
+}
