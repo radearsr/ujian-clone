@@ -271,7 +271,87 @@ main {
   width: 100%;
 }
 
-/* fOOTER */
+.slide-bar {
+  width: 90px;
+  height: 60px;
+  background-color: #e66c69;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.slide-opened {
+  background-color: #e66c69;
+}
+
+.slider {
+  position: fixed;
+  right: 0;
+  top: 15%;
+  z-index: 10;
+  transform: translateX(150%);
+  transition: all 1s;
+}
+
+.slider.opened {
+  transform: translateX(0);
+}
+
+.slide-bar.open {
+  right: 100%;
+}
+
+.list-question {
+  width: 270px;
+  height: 320px;
+  background-color: #ffffff;
+  z-index: 10;
+  overflow: auto;
+  border: 3px solid #e0e0e0;
+  clear: both;
+}
+
+.border-num {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  float: left;
+}
+
+.box-num {
+  background-color: #ffffff;
+  width: 60px;
+  text-align: center;
+  border: 4px solid #333333;
+  height: 60px;
+  margin: 8px auto;
+  cursor: default;
+}
+
+.box-num h1 {
+  line-height: 60px;
+}
+
+.box-num span {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #333333;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* ================================================================================= */
+/* ================================= Bagian Footer ================================*/
+/* ================================================================================= */
 footer {
   background-color: #333333;
   color: #fff;
